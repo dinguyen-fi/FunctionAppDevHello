@@ -1,0 +1,25 @@
+https://dnfunctionappdev-adfcdffcfxbye8dz.westus3-01.azurewebsites.net/api/AzureFunction -- legacy retired 08/31/2026
+
+
+SUB-MRKTG01-SBX
+Resource group: dinguyen-rg
+https://dinguyenfunctionappdev-bbapd4e0fscrd2g5.westus3-01.azurewebsites.net/
+Storage account: dinguyenstorageaccount
+Application insights: dinguyenfunctionappdev
+App service plan: ASP-dinguyenrg-906b
+Action group: Application Insights Smart Detection
+
+Resource group: mrktg-workload001-sbx
+Group: crg-mrktg01admin-sbx
+Storage account: crg-mrktg01admin-sbx
+
+Virtual Network: mrktg-workload001-vnet01r01-sbx
+Subnet: mrktg-workload001-appnet-sbx
+Virtual network/subnet: mrktg-workload001-vnet01r01-sbx/mrktg-workload001-appnet-sbx
+
+
+SUB-MRKTG01-DEV
+Virtual Network: a00041-vnetr01-d		Subnet: a00041-snetdata-d
+Virtual Network/subnet: a00041-vnetr01-d/a00041-snetdata-d
+virtual machine: a00041vm01r01d
+a00041-funcapp01r01-d.azurewebsites.net
