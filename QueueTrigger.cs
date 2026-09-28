@@ -15,8 +15,8 @@ public class QueueTrigger
     }
 
     [Function("CopyQueueMessage")]
-    [QueueOutput("myqueue-items-destination", Connection = "QueueStorage1")]
-    public string Run([QueueTrigger("myqueue-items-source", Connection = "QueueStorage1")] string myQueueItem)
+    [QueueOutput("myqueue-items-destination", Connection = "QueueStorage")]
+    public string Run([QueueTrigger("myqueue-items-source", Connection = "QueueStorage")] string myQueueItem)
     {
         _logger.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
         return myQueueItem;
