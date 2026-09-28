@@ -31,11 +31,14 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues" Version="5.5.4" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.OpenTelemetry" Version="1.2.0" />
     <PackageReference Include="Microsoft.Extensions.Azure" Version="1.14.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.12" />
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
     <PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.7.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="2.1.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>

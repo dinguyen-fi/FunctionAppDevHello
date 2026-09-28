@@ -10,13 +10,10 @@
   },
   "extensions": {
     "blobs": {},
-    "cosmosDb": {},
     "durableTask": {},
-    "eventHubs": {},
     "http": {},
     "queues": {},
-    "sendGrid": {},
-    "serviceBus": {}
+    "sendGrid": {}
   },
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
@@ -98,7 +95,5 @@
     "lockAcquisitionTimeout": "00:01:00",
     "lockAcquisitionPollingInterval": "00:00:03"
   },
-  "telemetryMode": "OpenTelemetry",
-  "watchDirectories": [ "Shared", "Test" ],
-  "watchFiles": [ "myFile.txt" ]
+  "telemetryMode": "OpenTelemetry"
 }
